@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+
+    .container {
+        background-color: aliceblue;
+        border: dashed;
+        .images img {
+            margin: auto;
+            display: block;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            // padding-top: 12vh;
+        }
+        h2 {
+            color: #0000f3;
+            small {
+                text-transform: uppercase;
+                color: black;
+                font-size: small;
+                font-weight: bold;
+            }
+        }
+    }
+}

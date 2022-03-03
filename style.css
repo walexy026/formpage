@@ -1,0 +1,32 @@
+body {
+  background-color: aquamarine;
+}
+
+body .container {
+  background-color: aliceblue;
+  border: dashed;
+}
+
+body .container .images img {
+  margin: auto;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container h1 {
+  text-align: center;
+}
+
+body .container h2 {
+  color: #0000f3;
+}
+
+body .container h2 small {
+  text-transform: uppercase;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
