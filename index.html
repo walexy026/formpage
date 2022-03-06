@@ -26,15 +26,22 @@
             </div>
         </div>
         <form class="row g-3 needs-validation" novalidate>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username">
+              </div>
+            
             <div class="col-md-12">
                 <label for="validationCustom01" class="form-label">Address</label>
-                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Mark" required>
                 <div class="valid-feedback">
                     Your current resident!
                 </div>
                 <div class="col-md-12">
                     <label for="validationCustom01" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Mark" required>
                     <div class="valid-feedback">
                         Your Office Address!
                     </div>
@@ -159,7 +166,7 @@
                         Please provide a valid zip. -->
                     <!-- </div>
                     </div> -->
-                    <div class="mb-3">
+                    <div class="mb-3 mt-2">
                         <input type="file" class="form-control" aria-label="file example" required>
                         <div class="invalid-feedback">Example invalid form file feedback</div>
                     </div>
@@ -175,7 +182,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-danger form-control" type="submit">Sign me up</button>
+                        <button class="btn btn-danger" type="submit">Sign me up</button>
                     </div>
         </form>
 
